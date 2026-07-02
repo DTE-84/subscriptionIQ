@@ -1,0 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Dashboard from './pages/Dashboard';
+import Subscriptions from './pages/Subscriptions';
+import Vault from './pages/Vault';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="subscriptions" element={<Subscriptions />} />
+          <Route path="vault" element={<Vault />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
