@@ -7,7 +7,7 @@ import Breakdown from './pages/Breakdown';
 
 function App() {
   return (
-    <Router basename="/lockboxIQ">
+    <Router basename="/orbit">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />

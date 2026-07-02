@@ -11,9 +11,9 @@ export default function Breakdown() {
       </div>
 
       <div className="glass-panel delay-1 mb-4">
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '16px', color: 'var(--primary)' }}>LockboxIQ / SubscriptionIQ</h2>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '16px', color: 'var(--primary)' }}>Orbit</h2>
         <p style={{ lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
-          LockboxIQ serves as a dedicated, standalone top-of-funnel entry point into the DTE ecosystem. While it operates as its own product for credential and subscription tracking, it is fundamentally engineered as a <strong>Bundle Add-On for Pulse</strong>. 
+          Orbit serves as a dedicated, standalone top-of-funnel entry point into the DTE ecosystem. While it operates as its own product for credential and subscription tracking, it is fundamentally engineered as a <strong>Bundle Add-On for Pulse</strong>. 
           By unifying the auth layer and postgres instance via Supabase, users receive this high-fidelity Vault as a bundled perk, anchoring the $14.99/mo value of Pulse while expanding the ecosystem's feature depth.
         </p>
         
@@ -50,7 +50,7 @@ export default function Breakdown() {
               <h3 style={{ fontSize: '1.1rem', margin: 0 }}>Plaid Integration</h3>
             </div>
             <p className="text-secondary" style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>
-              Since Plaid is already wired up in Pulse, subscription auto-detection from bank transactions becomes the killer feature of LockboxIQ. Infrastructure is extended, not rebuilt.
+              Since Plaid is already wired up in Pulse, subscription auto-detection from bank transactions becomes the killer feature of Orbit. Infrastructure is extended, not rebuilt.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Breakdown() {
           </li>
           <li className="list-item">
             <div>
-              <h4 style={{ margin: '0 0 4px 0' }}>LockboxIQ</h4>
+              <h4 style={{ margin: '0 0 4px 0' }}>Orbit</h4>
               <span className="text-secondary" style={{ fontSize: '0.85rem' }}>Subscription & Credential Vault (Bundle Add-On)</span>
             </div>
             <span className="badge badge-success">Active Core</span>

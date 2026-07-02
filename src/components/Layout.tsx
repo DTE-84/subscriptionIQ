@@ -7,7 +7,7 @@ const Sidebar = () => {
   const navItems = [
     { path: '/', icon: <LayoutDashboard size={20} /> , label: 'Dashboard' },
     { path: '/subscriptions', icon: <CreditCard size={20} /> , label: 'Subscriptions' },
-    { path: '/vault', icon: <Shield size={20} /> , label: 'Lockbox Vault' },
+    { path: '/vault', icon: <Shield size={20} /> , label: 'Orbit Vault' },
     { path: '/breakdown', icon: <BookOpen size={20} /> , label: 'Architecture' },
   ];
 
@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="flex-center mb-4" style={{ justifyContent: 'flex-start', padding: '0 8px' }}>
         <Shield size={28} className="text-gold" style={{ marginRight: '12px' }} />
-        <h2 style={{ fontSize: '1.2rem', margin: 0 }}>Lockbox</h2>
+        <h2 style={{ fontSize: '1.2rem', margin: 0 }}>Orbit</h2>
       </div>
       
       <nav className="nav-menu">
