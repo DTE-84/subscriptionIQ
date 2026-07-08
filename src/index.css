@@ -318,12 +318,19 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-mobile-wrap {
+  display: flex;
+  gap: 16px;
 }
 
 .mt-1 { margin-top: 8px; }
@@ -407,10 +414,24 @@ h1, h2, h3, h4, h5, h6 {
   .responsive-table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin: 0 -24px;
+    padding: 0 24px;
   }
   
   table {
     min-width: 600px;
+  }
+
+  .flex-mobile-wrap {
+    flex-direction: column !important;
+  }
+  
+  .flex-mobile-wrap > div {
+    width: 100% !important;
+  }
+
+  .modal-content {
+    padding: 16px !important;
   }
 }
 

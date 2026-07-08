@@ -165,7 +165,7 @@ export default function SubscriptionModal({ isOpen, onClose, onSuccess }: Subscr
                   </div>
                 </div>
 
-                <div style={{ display: 'flex', gap: '16px' }}>
+                <div className="flex-mobile-wrap">
                   <div style={{ flex: 1 }}>
                     <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>Billing Cycle</label>
                     <select 
@@ -186,7 +186,7 @@ export default function SubscriptionModal({ isOpen, onClose, onSuccess }: Subscr
                   </div>
                 </div>
 
-                <div style={{ display: 'flex', gap: '16px' }}>
+                <div className="flex-mobile-wrap">
                   <div style={{ flex: 1 }}>
                     <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '8px' }}>Payment Method (Optional)</label>
                     <input 

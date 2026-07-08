@@ -116,7 +116,7 @@ export default function CredentialModal({ isOpen, onClose, onSuccess }: Credenti
               </div>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '12px', marginTop: '32px' }}>
+            <div className="flex-mobile-wrap" style={{ display: 'flex', justifyContent: 'flex-end', gap: '12px', marginTop: '32px' }}>
               <button type="button" className="btn btn-secondary" onClick={onClose}>Cancel</button>
               <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
                 {isSubmitting ? 'Encrypting & Saving...' : <><Check size={16} /> Encrypt & Save</>}
