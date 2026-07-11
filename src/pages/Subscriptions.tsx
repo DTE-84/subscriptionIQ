@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Plus, Search, Filter, MoreVertical, CreditCard, Edit, PauseCircle, Trash2, Loader2, ExternalLink } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import SubscriptionModal from '../components/SubscriptionModal';
